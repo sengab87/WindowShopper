@@ -22,7 +22,7 @@ class MainVC: UIViewController {
     
         print("yo")
     }
-    func setupButton(){
+    private func setupButton(){
         let calcBtn = UIButton(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: 60))
         calcBtn.backgroundColor = #colorLiteral(red: 1, green: 0.4720282555, blue: 0.2901404202, alpha: 1)
         calcBtn.setTitle("Calculate", for: .normal)
